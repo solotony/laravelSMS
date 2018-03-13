@@ -250,7 +250,7 @@ class Sms extends Controller
 
     function __construct()
     {
-        if (!config('app.https_login')) $this->error("Не удалось подключить конфигурационный файл.");
+        if (!config('sms.https_login')) $this->error("Не настроен конфигурационный файл.");
     }
 
 }

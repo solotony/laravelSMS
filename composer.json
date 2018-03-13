@@ -3,7 +3,7 @@
   "description": "A package to send SMS using smsint.ru",
   "license": "MIT",
   "type": "package",
-  "version":"0.0.4",
+  "version":"0.1.0-beta",
   "keywords": ["laravel","smsint.ru"],
   "authors": [
     {
