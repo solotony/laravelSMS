@@ -3,7 +3,7 @@ namespace solotony\laravelsms;
 
 use App\Http\Controllers\Controller;
 
-class SMS extends Controller
+class Sms extends Controller
 {
     private $charset;
 
