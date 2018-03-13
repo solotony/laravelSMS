@@ -1,11 +1,13 @@
 <?php
 return [
 
-    // логин для HTTPS-протокола
-    'https_login' => '79214047714',
+    'version' => '0.0.0',
 
     // логин для HTTPS-протокола
-    'https_password' => '85243862288',
+    'https_login' => '',
+
+    // логин для HTTPS-протокола
+    'https_password' => '',
 
     // HTTP-Адрес, к которому будут обращаться скрипты. Со слэшем на конце.
     'https_address' => 'https://lcab.smsint.ru/',
