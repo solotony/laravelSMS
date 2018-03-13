@@ -1,7 +1,7 @@
 <?php
 return [
 
-    'version' => '0.0.0',
+    'version' => '0.0.2',
 
     // логин для HTTPS-протокола
     'https_login' => '',

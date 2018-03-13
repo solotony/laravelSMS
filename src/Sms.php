@@ -1,5 +1,5 @@
 <?php
-namespace solotony\Sms;
+namespace Solotony\Sms;
 
 use App\Http\Controllers\Controller;
 

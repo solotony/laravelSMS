@@ -1,8 +1,8 @@
 <?php
-namespace solotony\sms;
+namespace Solotony\Sms;
 
 use Illuminate\Support\ServiceProvider;
-use solotony\laravelSMS\Sms;
+use solotony\laravelsms\Sms;
 use Config;
 
 class SmsProvider extends ServiceProvider
@@ -29,11 +29,9 @@ class SmsProvider extends ServiceProvider
      */
     public function register()
     {
-
         $this->app['Sms'] = $this->app->singleton('Sms',function($app)
         {
             return new Sms();
         });
-
     }
 }

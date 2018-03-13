@@ -1,37 +1,36 @@
 {
-    "name": "solotony/laravelSMS",
-    "description": "A package to send SMS using ",
-    "license": "MIT",
-    "type": "package",
-    "version":"1.0.2",
-    "keywords": ["laravel","smsgw.net","mobily.ws"],
-    "authors": [
-        {
-            "name": "Antonio Solo",
-            "email": "as@solotony.com",
-            "homepage": "http://solotony.com",
-            "role": "Developer"
-        }
-    ],
-    "require": {
-        "php": ">=7.1.0"
-    },
-    "autoload": {
-       "psr-4": {
-            "solotony\\laravelSMS\\": "src/"
-        }
- 
-      },
-	"extra": {
-        "laravel": {
-            "providers": [
-                "solotony\\laravelSMS\\SmsProvider"
-            ],
-            "aliases": {
-                "SMS": "solotony\\laravelSMS\\Sms"
-            }
-        }
-		},
-      "minimum-stability": "dev"
+  "name": "solotony/laravelsms",
+  "description": "A package to send SMS using smsint.ru",
+  "license": "MIT",
+  "type": "package",
+  "version":"0.0.2",
+  "keywords": ["laravel","smsint.ru"],
+  "authors": [
+    {
+      "name": "Antonio Solo",
+      "email": "as@solotony.com",
+      "homepage": "http://solotony.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "solotony\\laravelsms\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "solotony\\laravelsms\\SmsProvider"
+      ],
+      "aliases": {
+        "SMS": "solotony\\laravelsms\\Sms"
+      }
+    }
+  },
+  "minimum-stability": "dev"
 }
 
