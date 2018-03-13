@@ -1,5 +1,5 @@
 <?php
-namespace Solotony\Sms;
+namespace solotony\laravelsms;
 
 use Illuminate\Support\ServiceProvider;
 use solotony\laravelsms\Sms;

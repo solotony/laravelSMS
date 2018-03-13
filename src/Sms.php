@@ -1,5 +1,5 @@
 <?php
-namespace Solotony\Sms;
+namespace solotony\laravelsms;
 
 use App\Http\Controllers\Controller;
 
